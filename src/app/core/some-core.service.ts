@@ -5,8 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class SomeCoreService {
 
-  public readonly date = Date.now();
-  public readonly id = Math.random();
+  public readonly id = Math.random().toString(36).substr(2, 10);
 
   constructor() {
     console.log('SomeCoreService init');

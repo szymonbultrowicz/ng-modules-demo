@@ -10,11 +10,13 @@ import {Subscription} from 'rxjs';
       lazy-loaded works!
     </p>
     <p>
-      Service date: {{ someCoreService.date | date:'full' }}
+      SomeCoreService from root injector: {{ someCoreService.id }}
     </p>
     <p>
       <button (click)="subscribeTimer()">Subscribe on timer</button>
     </p>
+    <app-root-injected-component></app-root-injected-component>
+    <app-custom-injected-component></app-custom-injected-component>
   `,
   styles: []
 })

@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { LazyLoadedRoutingModule } from './lazy-loaded-routing.module';
 import { LazyLoadedComponent } from './lazy-loaded.component';
+import {CoreModule} from '../core/core.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    LazyLoadedRoutingModule
+    CoreModule,
+    LazyLoadedRoutingModule,
   ],
   declarations: [LazyLoadedComponent]
 })

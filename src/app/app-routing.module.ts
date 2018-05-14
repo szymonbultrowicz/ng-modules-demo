@@ -10,7 +10,7 @@ const routes: Routes = [
   {
     path: 'lazy',
     loadChildren: './lazy-loaded/lazy-loaded.module#LazyLoadedModule',
-  }
+  },
 ];
 
 @NgModule({

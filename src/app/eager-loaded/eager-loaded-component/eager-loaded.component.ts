@@ -8,7 +8,7 @@ import {SomeCoreService} from '../../core/some-core.service';
       eager-loaded-component works!
     </p>
     <p>
-      Service date: {{ someCoreService.date | date:'full' }}
+      SomeCoreService from root injector: {{ someCoreService.id }}
     </p>
   `,
   styles: []

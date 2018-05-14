@@ -1,27 +1,17 @@
-# NgModulesTest
+# NgModules Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+A sample application showing interaction between components and services.
 
-## Development server
+## Topics
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Eager vs lazy modules: [routing module](src/app/app-routing.module.ts)
+1. Kinds of components regarding bootstraping: [docs](https://angular.io/guide/entry-components)
+   1. Declarative components
+   1. Entry point components
+      1. Routing components
+      1. Bootstrap component
+1. Components lifecycle: [docs](https://angular.io/guide/lifecycle-hooks)
+1. Services lifecycle
+1. Scope of services
+1. Observables within services: [service](src/app/lazy-loaded/lazy.service.ts), [component](src/app/lazy-loaded/lazy-loaded.component.ts)
+1. Code bundling, tree shaking
