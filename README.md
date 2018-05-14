@@ -2,6 +2,8 @@
 
 A sample application showing interaction between components and services.
 
+[live demo](https://stackblitz.com/github/szymonbultrowicz/ng-modules-demo)
+
 ## Topics
 
 1. Eager vs lazy modules: [routing module](src/app/app-routing.module.ts)
